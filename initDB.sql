@@ -1,9 +1,11 @@
 drop table if exists developers;
-create table developer(
+drop type if exists sex;
+create type sex as enum('MALE', 'FEMALE');
+create table developers(
     id_developer int,
     name varchar(255),
     age int,
-    sex varchar(1),
+    sex sex,
     salary int,
     it_company_id int
 );
@@ -55,7 +57,7 @@ create table companies_projects(
     project_ID int
 );
 
-drop table if exists companies_projects;
+drop table if exists customers_projects;
 create table customers_projects(
     customer_ID int,
     project_ID int

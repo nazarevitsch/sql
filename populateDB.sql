@@ -1,8 +1,8 @@
-insert into developer(id_developer, name, age, sex, salary, it_company_id) values (1, 'Vasa', 22, 'M', 2300, 1);
-insert into developer(id_developer, name, age, sex, salary, it_company_id) values (2, 'Olha', 24, 'F', 2500, 1);
-insert into developer(id_developer, name, age, sex, salary, it_company_id) values (3, 'Ilona', 20, 'F', 2000, 2);
-insert into developer(id_developer, name, age, sex, salary, it_company_id) values (4, 'Kola', 21, 'M', 1700, 2);
-insert into developer(id_developer, name, age, sex, salary, it_company_id) values (5, 'Roma', 28, 'M', 2950, 3);
+insert into developers(id_developer, name, age, sex, salary, it_company_id) values (1, 'Vasa', 22, 'MALE', 2300, 1);
+insert into developers(id_developer, name, age, sex, salary, it_company_id) values (2, 'Olha', 24, 'FEMALE', 2500, 1);
+insert into developers(id_developer, name, age, sex, salary, it_company_id) values (3, 'Ilona', 20, 'FEMALE', 2000, 2);
+insert into developers(id_developer, name, age, sex, salary, it_company_id) values (4, 'Kola', 21, 'MALE', 1700, 2);
+insert into developers(id_developer, name, age, sex, salary, it_company_id) values (5, 'Roma', 28, 'MALE', 2950, 3);
 
 
 insert into skills(id_skills, programing_language, level)  values (1, 'Java', 'Junior');
