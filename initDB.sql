@@ -1,4 +1,4 @@
-drop table if exists developers;
+ drop table if exists developers CASCADE;
 drop type if exists sex;
 create type sex as enum('MALE', 'FEMALE');
 create table developers(
